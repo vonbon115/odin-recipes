@@ -1,0 +1,2 @@
+#Hello
+This rudimentary website will be a milestone in The Odin Project series. I will be exercising the elements and html that TOP has taught me thus far, and create a website with that knowledge. The lesson name for this is called: "Project: Recipes".
