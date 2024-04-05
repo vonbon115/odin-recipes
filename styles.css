@@ -1,3 +1,12 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
 /* basic element styles */
 body {
     font-family: 'Times New Roman', Times, serif;
@@ -19,20 +28,44 @@ h3 {
     font-size: 32px;
 }
 
-
-
 img {
     height: auto;
     width: 400px;
 }
 /* index.html styles */
+
 .recipe-list {
     list-style-type: none;
     font-size: 24px;
 }
 
-.recipe-list li a, .recipe-list li a:visited{
+.recipe-list .list-div {
+    margin: 32px 0;
+    background-color: #8C5F38;
+}
+
+.recipe-list .list-div .d-one {
+    padding: 16px 0 16px 16px;
+}
+
+.recipe-list .list-div .d-two {
+    padding: 16px 0 16px 64px;
+}
+
+.recipe-list .list-div .d-three {
+    padding: 16px 0 16px 128px;
+}
+
+.recipe-list .list-div li a {
+    font-size: 36px;
+}
+
+.recipe-list .list-div li a, .recipe-list .list-div li a:visited{
     color: #B99976
+}
+
+.recipe-list .list-div li a:hover {
+    color: #a52a2a;
 }
 
 /* recipe styles */
